@@ -16,6 +16,7 @@ public class Variables {
         System.out.println(space);
         boolean permission = false;
         System.out.println(permission);
-
+        int file = 60000202;
+        System.out.println(file);
     }
 }
