@@ -5,7 +5,7 @@ public class Calculator {
         System.out.println(size);
         size = 100;
         System.out.println(size);
-        int result = size - 5;
-        System.out.println(result);
+        size = size - 5;
+        System.out.println(size);
     }
 }
