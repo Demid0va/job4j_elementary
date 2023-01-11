@@ -10,13 +10,13 @@ public class Variables {
         System.out.println(growth);
         int bricks = 24480;
         System.out.println(bricks);
-        double bacteria = 1.05;
+        double bacteria = 1.7325E+19;
         System.out.println(bacteria);
-        double space = 149597870;
+        double space = 1.4845E+12;
         System.out.println(space);
         boolean permission = false;
         System.out.println(permission);
-        int file = 60000202;
+        int file = 1_834_671_145;
         System.out.println(file);
     }
 }
