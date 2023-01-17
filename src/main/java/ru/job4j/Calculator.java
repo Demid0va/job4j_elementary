@@ -1,4 +1,4 @@
-package ru.job4j.calculator;
+package ru.job4j;
 public class Calculator {
     public static double manWeight(short height) {
         double rsl = (187 - 100) * 1.15;
@@ -18,5 +18,4 @@ public class Calculator {
         double woman = Calculator.womanWeight(height);
         System.out.println("Woman 170 is " + woman);
     }
-
 }
