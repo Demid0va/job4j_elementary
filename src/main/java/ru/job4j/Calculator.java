@@ -1,7 +1,5 @@
 package ru.job4j.calculator;
-
 public class Calculator {
-
     public static double manWeight(short height) {
         double rsl = (187 - 100) * 1.15;
         return rsl;
