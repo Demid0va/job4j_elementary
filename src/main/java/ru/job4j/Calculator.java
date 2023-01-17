@@ -15,7 +15,7 @@ public class Calculator {
         short height2 = 170;
         double man = Calculator.manWeight(height);
         System.out.println("Man 187 is " + man);
-        double woman = Calculator.womanWeight(height);
+        double woman = Calculator.womanWeight(height2);
         System.out.println("Woman 170 is " + woman);
     }
 }
