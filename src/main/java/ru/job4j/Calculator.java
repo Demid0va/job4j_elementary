@@ -1,22 +1,24 @@
-ackage ru.job4j.calculator;
+package ru.job4j.calculator;
 
 public class Calculator {
 
-    public static void plus(int first, int second) {
-        int result = first + second;
-        System.out.println(result);
+    public static double manWeight(short height) {
+        double rsl = (187 - 100) * 1.15;
+        return rsl;
     }
 
-    public static void minus(int first, int second) {
-        int result = first - second;
-        System.out.println(result);
+    public static double womanWeight(short height2) {
+        double rsl = (170 - 110) * 1.15;
+        return rsl;
     }
 
     public static void main(String[] args) {
-        plus(1, 2);
-        plus(10, 11);
-        minus(7, 3);
-        minus(2, 6);
+        short height = 187;
+        short height2 = 170;
+        double man = Calculator.manWeight(height);
+        System.out.println("Man 187 is " + man);
+        double woman = Calculator.womanWeight(height);
+        System.out.println("Woman 170 is " + woman);
     }
 
 }
