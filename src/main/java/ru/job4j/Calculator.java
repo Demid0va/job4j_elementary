@@ -5,7 +5,7 @@ public class Calculator {
         return rsl;
     }
 
-    public static double womanWeight(short height2) {
+    public static double womanWeight(short height) {
         double rsl = (170 - 110) * 1.15;
         return rsl;
     }
@@ -14,8 +14,8 @@ public class Calculator {
         short height = 187;
         short height2 = 170;
         double man = Calculator.manWeight(height);
-        System.out.println("Man 187 is " + man);
-        double woman = Calculator.womanWeight(height2);
-        System.out.println("Woman 170 is " + woman);
+        System.out.println(man);
+        double woman = Calculator.womanWeight(height);
+        System.out.println(woman);
     }
 }
