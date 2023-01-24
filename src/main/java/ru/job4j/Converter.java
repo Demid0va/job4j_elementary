@@ -6,13 +6,8 @@ public class Converter {
         return rsl;
     }
 
-    public static float rubleToEuro2(float value) {
-        float rsl = value / 60;
-        return rsl;
-    }
-
     public static float rubleToDollar(float value) {
-        float rsl = 1;
+        float rsl = value / 60;
         return rsl;
     }
 
