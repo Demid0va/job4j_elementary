@@ -17,10 +17,10 @@ public class Converter {
         float out = ru.job4j.Converter.rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are 2 Euro. Test result: " + passed);
-        float input = 180;
-        float wait = 3;
-        float exit = ru.job4j.Converter.rubleToDollar(input);
-        boolean past = wait == exit;
-        System.out.println("180 rubles are 3 Dollar. Test result: " + past);
+        in = 180;
+        expected = 3;
+        out = ru.job4j.Converter.rubleToDollar(out);
+        passed = expected == out;
+        System.out.println("180 rubles are 3 Dollar. Test result: " + out);
     }
 }
